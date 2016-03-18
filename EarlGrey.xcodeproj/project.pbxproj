@@ -811,6 +811,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD1000FA1C5B466F00B2DB0A /* Build configuration list for PBXNativeTarget "EarlGrey" */;
 			buildPhases = (
+				49C6C6E71C9CB0EF00616B15 /* Setup EarlGrey */,
 				FD1000E41C5B466F00B2DB0A /* Sources */,
 				FD1000E51C5B466F00B2DB0A /* Frameworks */,
 				FD1000E61C5B466F00B2DB0A /* Headers */,
@@ -854,6 +855,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49C6C6E71C9CB0EF00616B15 /* Setup EarlGrey */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Setup EarlGrey";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${PROJECT_DIR}\nsh Scripts/setup-earlgrey.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD1000E41C5B466F00B2DB0A /* Sources */ = {
